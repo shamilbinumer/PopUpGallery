@@ -60,6 +60,7 @@ const Home = () => {
                                         data-bs-toggle="modal"
                                         data-bs-target="#exampleModal"
                                         onClick={() => handleThumbnailClick(index)}
+                                        // data-aos="fade-right" data-aos-duration="1000"
                                     />
                                 </div>
                             ))}
