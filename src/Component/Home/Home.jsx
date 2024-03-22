@@ -10,6 +10,8 @@ import prod5 from '../../assets/images/img5.jpg';
 import prod6 from '../../assets/images/img6.jpg';
 import prod7 from '../../assets/images/img7.jpg';
 import prod8 from '../../assets/images/img8.jpg';
+import prod9 from '../../assets/images/img9.jpg';
+import prod10 from '../../assets/images/img10.jpg';
 
 const Home = () => {
     const content = {
@@ -22,6 +24,8 @@ const Home = () => {
             { id: 6, img: prod6 },
             { id: 7, img: prod7 },
             { id: 8, img: prod8 },
+            { id: 9, img: prod9 },
+            { id: 10, img: prod10 },
         ],
     };
 
@@ -101,10 +105,10 @@ const Home = () => {
                                 ))}
                                 
                             </div>
-                           <div className="btns">
-                           <MdOutlineKeyboardArrowLeft className='arrowIcon' onClick={handlePrev}/>
-                            <MdOutlineKeyboardArrowRight className='arrowIcon' onClick={handleNext}/>
-                           </div>
+                            <div className="btns">
+                                <MdOutlineKeyboardArrowLeft className='arrowIcon' onClick={handlePrev}/>
+                                <MdOutlineKeyboardArrowRight className='arrowIcon' onClick={handleNext}/>
+                            </div>
                         </div>
                     </div>
                 </div>
