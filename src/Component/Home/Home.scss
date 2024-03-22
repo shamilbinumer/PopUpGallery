@@ -1,0 +1,56 @@
+.HomeMainDiv {
+    #exampleModalLabel{
+        backdrop-filter: blur(19px) !important;
+    }
+    .heading {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .modal-body {
+        height: auto;
+        background-color: transparent;
+    }
+    
+    .imagesList {
+        img {
+            width: 100%;
+            border-radius: 6px;
+            height: 250px;
+            margin-top: 20px;
+        }
+    }
+    
+    #CrousImg {
+        border-radius: 5px;
+        height: 300px !important;
+    }
+    
+    .thumbnails {
+        height: auto;
+        padding: 20px;
+        overflow-x: scroll;
+        display: flex;
+        padding-top: 30px;
+        text-align: center !important;
+        
+        img {
+            transition: .5s;
+            width: 17%;
+            margin-right: 20px;
+            height: 70px;
+            border-radius: 5px;
+        }
+    }
+    .btns{
+        text-align: center;
+    }
+    .arrowIcon{
+        font-size: 30px;
+        text-align: center;
+    }
+    .thumbnails::-webkit-scrollbar {
+        display: none;
+      }
+}
+
